@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./1.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -25,10 +25,15 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import doterb from "./company/doterb.svg";
+import gits from "./company/gits.png";
+import wit from "./company/wit.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import wanoMaps from "./wano-maps.png";
+import portfolio3d from "./3d.png";
 
 export {
   logo,
@@ -56,7 +61,12 @@ export {
   shopify,
   starbucks,
   tesla,
+  doterb,
+  gits,
+  wit,
   carrent,
   jobit,
   tripguide,
+  wanoMaps,
+  portfolio3d,
 };
