@@ -27,6 +27,8 @@ const Contact = () => {
     });
   };
 
+  console.log({ env: import.meta.env });
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
@@ -42,7 +44,7 @@ const Contact = () => {
           to_email: "sujata@jsmastery.pro",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
       )
       .then(
         () => {
@@ -60,7 +62,7 @@ const Contact = () => {
           console.error(error);
 
           alert("Ahh, something went wrong. Please try again.");
-        }
+        },
       );
   };
 
